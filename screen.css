@@ -60,7 +60,28 @@ a {
   h1 {
     font-size: 4em;
     color: #e25d0f;
+    margin: auto;
+
   }
   p {
   padding: 1cm
+}
+h2 {
+  font-size: 4em;
+  color: #ffffff;
+  margin: auto;
+
+}
+p {
+  font-size: 4em;
+  color: #ffffff;
+  margin: auto;
+
+}
+html { 
+  background: url(https://thumbs-prod.si-cdn.com/tLVtLGA1BrBiZ21tMurkUg5U_yk=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/cf/dd/cfddbf37-dca7-4772-95e9-a360748d004a/153534main_image_feature_623_ys_full.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
