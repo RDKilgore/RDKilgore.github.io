@@ -63,6 +63,7 @@ a {
     margin: auto;
     font-family: 'Special Elite';
     font-size: 300%;
+    text-align: center
 
   }
   p {
@@ -72,7 +73,7 @@ h2 {
   font-size: 4em;
   color: #ffffff;
   margin: auto;
-
+  text-align: center
 }
 p {
   font-size: 4em;
@@ -81,10 +82,3 @@ p {
 
 }
 
-header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: rgb(131, 29, 29);
-  font-size: 30px;
-}
