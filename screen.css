@@ -77,12 +77,12 @@ h2 {
   margin: auto;
   text-align: center}
 
-#link{
+  #link{
   font-size: 4em;
   color: #ffffff;
   margin: auto; 
     background-color: #4CAF50; /* Green */
-    border: none;
+    border: white;
     color: white;
     padding: 15px 32px;
     text-align: center;
