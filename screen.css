@@ -19,7 +19,8 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  padding-top: 3.5rem; }
 
 ol, ul {
   list-style: none; }
@@ -65,25 +66,14 @@ h1 {
     font-size: 300%;
     text-align: center}
 p {
-    padding: 1cm}
+    padding: 1cm;
+    color: #ffffff
+    }
 h2 {
     font-size: 4em;
     color: #ffffff;
     margin: auto;
     text-align: center}
-#link{
-    font-size: 4em;
-    color: #ffffff;
-    margin: auto; 
-    background-color: rgb(0, 140, 255); 
-    border: white;
-    color: white;
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    }
 .center {
   display: block;
   margin-left: auto;
