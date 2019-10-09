@@ -14,6 +14,13 @@
     <!-- Custom styles for this template -->
     <link href="screen.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Special+Elite&display=swap" rel="stylesheet">
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("mainHeader").onclick = function() {
+    this.style.color = 'orange'
+  }
+})
+    </script>
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -36,7 +43,7 @@
       </style>
       <main role="main" class="inner cover">
         <br>
-        <h1 class="cover-heading" onclick="this.style.color='orange';"> <b>Rian Kilgore </b></h1>
+        <h1 class="cover-heading" id="mainHeader" > <b>Rian Kilgore </b></h1>
         
         <p class="lead">Welcome to My first webpage since Homestead.com</p>
         <br>
