@@ -28,21 +28,23 @@
         </ul>
     </nav>
     <div>
-        <body>
+        <h3>Enter your Email</h3>
 
-            <h2>What Can JavaScript Do?</h2>
-            
-            <p>JavaScript can change HTML attribute values.</p>
-            
-            <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-            
-            <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-            
-            <img id="myImage" src="pic_bulboff.gif" style="width:100px">
-            
-            <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
-            
-            </body>
+<input type="text" id="myText" value="Some text...">
+
+<p>Click the "email me" button to get your email typed below.</p>
+
+<button onclick="myFunction()">email me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
     </div>
 </aside>
 <footer>
