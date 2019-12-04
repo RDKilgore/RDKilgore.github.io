@@ -60,7 +60,7 @@ main {
 
 h1 {
     font-size: 4em;
-    color: #e25d0f;
+    color: #ff5e00a9;
     margin: auto;
     font-family: 'Special Elite', cursive;
     font-size: 300%;
@@ -83,7 +83,7 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #16b8a244;
 }
 
 li{
