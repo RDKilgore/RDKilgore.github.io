@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -20,7 +20,7 @@ time, mark, audio, video {
 
 body {
   line-height: 1;
-  padding-top: 3.5rem; }
+  padding-top: 1 rem; }
 
 ol, ul {
   list-style: none; }
@@ -73,9 +73,8 @@ p {
     padding: 1cm;
     color: #ffffff
     }
-  
-  
-  .center {
+
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -85,8 +84,12 @@ p {
 nav {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
+}
+#top_nav{
+  font-size: 20px;
+  color: #ffffff
 }
 
 li{
@@ -97,4 +100,7 @@ li{
   text-decoration: none;
   float: center;
 }
-
+h2{
+  font-size: 25px;
+  color: white
+}
