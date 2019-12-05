@@ -48,7 +48,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    color: #0388a6; }
+    color: #0388a6;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover }
 
 a {
     color: #0388a6; }
@@ -83,16 +87,14 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #16b8a244;
 }
 
 li{
   display: block;
-  color: white;
+  color: rgb(173, 37, 37);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   float: center;
 }
-
 
