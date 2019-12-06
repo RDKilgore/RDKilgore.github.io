@@ -6,36 +6,28 @@
 <body>
     <header>
         <div>
-            <h1> Contact Me</h1>
             <nav class="nav nav-masthead justify-content-center">
                     <a class="nav-link" href="index.html">Home</a>
                     <a class="nav-link"  href= "About Me.html">About Me</a>
                     <a class="nav-link active" href="contactMe.html">[Contact]</a>
                     <a class="nav-link" href="jQuery.html">jQuery</a>
         </div>
+        <h1>Like to Contact Me?</h1>
         </header>
     <section>
-        <article> 
-            <h2> My Name Is Rian</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsum eum quidem nobis, perferendis nesciunt amet quo corrupti fugit deserunt molestiae sapiente assumenda aliquid explicabo quas dolorem illum itaque nemo?</p>
+        <article>
+            <p> As of right now I am not accepting phone call. However, you may still send me your email adress using the box below!</p>
         </article>
 </section>
 <aside>
-    <h3>Methods Of Contact</h3>
-    <nav>
-        <ul>
-            <li>Email</li>
-            <li>Phone</li>
-        </ul>
-    </nav>
     <div>
         <h3>Enter your Email</h3>
 
 <input type="text" id="myText" value="Some text...">
 
-<p>Click the "email me" button to get your email typed below.</p>
+<p>Click the "email me" button to send me your Email address!</p>
 
-<button onclick="myFunction()">email me</button>
+<button onclick="myFunction()">email me!</button>
 
 <p id="demo"></p>
 
@@ -43,6 +35,7 @@
 function myFunction() {
   var x = document.getElementById("myText").value;
   document.getElementById("demo").innerHTML = x;
+  alert ("Ok...so maybe email wont work either yet! But if you look below the email me button now your email address moved...Neat!")
 }
 </script>
 
