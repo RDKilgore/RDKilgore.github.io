@@ -52,8 +52,18 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-    background-size: cover }
+    background-size: cover;
+    height: 100%;
+  }
 
+.bg {
+  background-image: image("landit.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 a {
     color: #0388a6; }
   a:hover {
