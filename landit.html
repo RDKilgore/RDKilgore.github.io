@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Do it </title>   
+</head>
+<body class="text-center" background="Landit.jpg">
+    <header>
+        <div>
+            <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link"  href= "About Me.html">About Me</a>
+                    <a class="nav-link active" href="contactMe.html">[Contact]</a>
+                    <a class="nav-link" href="jQuery.html">jQuery</a>
+        </div>
+        <h1>Like to Contact Me?</h1>
+        </header>
+    <section>
+        <article>
+            <p> As of right now I am not accepting phone call. However, you may still send me your email adress using the box below!</p>
+        </article>
+</section>
+<aside>
+    <div>
+        <h3>Enter your Email</h3>
+
+<input type="text" id="myText" value="Some text...">
+
+<p>Click the "email me" button to send me your Email address!</p>
+
+<button onclick="myFunction()">email me!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+  alert ("Ok...so maybe email wont work either yet! But if you look below the email me button now your email address moved...Neat!")
+}
+</script>
+
+    </div>
+</aside>
+<footer>
+    <p>Copyright &copy; 2023, My website</p>
+</footer>
+</body>
+</html> 
